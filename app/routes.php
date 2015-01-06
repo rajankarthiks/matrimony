@@ -2,7 +2,18 @@
 
 
 
-Route::group(array('domain' => 'app.matrimony.app'), function()
+Route::group(array('domain' => '{domain}.com'), function()
+{
+
+	Route::get('/', [
+		'as' => 'home',
+		'uses' => 'PagesController@home'
+	]);
+
+});
+
+
+Route::group(array('domain' => 'matrimony.{domain}.com'), function()
 {
 
 	Route::get('/', [
@@ -12,9 +23,3 @@ Route::group(array('domain' => 'app.matrimony.app'), function()
 
 
 });
-
-
-Route::get('/', [
-	'as' => 'home',
-	'uses' => 'PagesController@home'
-]);

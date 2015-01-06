@@ -40,10 +40,10 @@
             <a href="#top">Start Matching</a>
         </li>
         <li>
-            <a href="http://app.matrimony.app/#/login">Login</a>
+            <a href="http://matrimony.karthikrajan.com/#/login">Login</a>
         </li>
         <li>
-            <a href="http://app.matrimony.app/#/join">Sign Up</a>
+            <a href="http://matrimony.karthikrajan.com/#/join">Sign Up</a>
         </li>
         <li class="divider"></li>
         <li>
@@ -70,7 +70,7 @@
         <h1>Start Matching</h1>
         <h3>Free Matrimonial Service</h3>
         <br>
-        <a href="http://app.matrimony.app" class="btn btn-lg btn-dropbox">Find Matches Now</a>
+        <a href="http://matrimony.karthikrajan.com" class="btn btn-lg btn-dropbox">Find Matches Now</a>
     </div>
 </header>
 

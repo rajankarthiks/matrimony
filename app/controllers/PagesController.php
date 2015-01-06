@@ -4,7 +4,7 @@ class PagesController extends \BaseController {
 
 	public function home()
 	{
-		return View::make('pages.home');
+		return View::make('layouts.static');
 	}
 
 	public function app()
