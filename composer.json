@@ -9,10 +9,21 @@
 	  	"laracasts/commander": "~1.0",
 	  	"laracasts/flash": "~1.0",
 		"laracasts/validation": "~1.0",
-		"laracasts/presenter": "0.1.*"
+		"laracasts/presenter": "0.1.*",
+		"league/oauth2-server": "4.0.*",
+		"lucadegasperi/oauth2-server-laravel": "3.0.*",
+		"guzzlehttp/guzzle": "5.0.*",
+		"league/fractal": "0.8.*",
+		"dingo/api": "0.6.*@dev",
+		"cviebrock/eloquent-sluggable": "dev-master",
+		"barryvdh/laravel-cors": "0.2.3"
 	},
 	"require-dev": {
-	  "way/generators": "~2.0"
+	  "way/generators": "~2.0",
+	  "fzaninotto/faker": "1.4.*@dev",
+	  "phpunit/phpunit": "~4.0",
+	  "league/factory-muffin": "~2.0",
+	  "mockery/mockery": "dev-master"
 	},
 	"autoload": {
 		"classmap": [

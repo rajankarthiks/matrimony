@@ -6,4 +6,11 @@ class PagesController extends \BaseController {
 	{
 		return View::make('pages.home');
 	}
+
+	public function app()
+	{
+		return View::make('matrimony.app');
+	}
+
+
 }
